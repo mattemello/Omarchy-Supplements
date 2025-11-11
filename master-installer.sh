@@ -10,6 +10,7 @@ echo "INSTALLATION COMPLETE"
 echo " "
 
 ./set-shell.sh
+./set-brave.sh
 
 echo " "
 echo "ALL DONE, REDY TO GO!"
