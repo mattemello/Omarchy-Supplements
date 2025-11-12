@@ -1,9 +1,11 @@
 #!/bin/sh
 
+./install-brave.sh
 ./install-zsh.sh
 ./install-ghostty.sh
 ./install-stow.sh
 ./install-omarchy-changes.sh
+./install-dotfiles.sh
 
 echo " "
 echo "INSTALLATION COMPLETE"
