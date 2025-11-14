@@ -24,6 +24,7 @@ if [ $? -eq 0 ]; then
     cd "$REPO_NAME"
     stow zshrc
     stow tmux
+    stow zathura
 
     cd "nvim/.config/nvim"
     git switch fasterNvim

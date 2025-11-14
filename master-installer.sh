@@ -3,6 +3,7 @@
 ./install-brave.sh
 ./install-zsh.sh
 ./install-ghostty.sh
+./install-zathura.sh
 ./install-stow.sh
 ./install-omarchy-changes.sh
 ./install-dotfiles.sh
@@ -13,6 +14,7 @@ echo " "
 
 ./set-shell.sh
 ./set-brave.sh
+./set-zathura.sh
 
 echo " "
 echo "ALL DONE, REDY TO GO!"
