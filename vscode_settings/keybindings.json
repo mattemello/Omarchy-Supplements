@@ -1,0 +1,38 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "h",
+        "command": "list.collapse",
+        "when": "explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "l",
+        "command": "list.expand",
+        "when": "explorerViewletVisible && !inputFocus && explorerResourceIsFolder"
+    },
+    {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "l",
+        "command": "explorer.openAndPassFocus",
+        "when": "explorerViewletVisible && !inputFocus && explorerResourceIsFile"
+    },
+    {
+        "key": "a",
+        "command": "explorer.newFile", 
+        "when": "explorerViewletFocus" 
+    },
+    {
+        "key": "w",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletFocus"
+    }
+]
