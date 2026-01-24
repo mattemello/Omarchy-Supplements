@@ -36,6 +36,31 @@
         "when": "explorerViewletFocus && !inputFocus"
     },
     {
+        "key": "r",
+        "command": "renameFile",
+        "when": "explorerViewletFocus && !inputFocus"
+    },
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "explorerViewletFocus && !inputFocus"
+    },
+    {
+        "key": "y",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletFocus && !inputFocus"
+    },
+    {
+        "key": "x",
+        "command": "filesExplorer.cut",
+        "when": "explorerViewletFocus && !inputFocus"
+    },
+    {
+        "key": "p",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletFocus && !inputFocus"
+    },
+    {
         "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminalIsOpen && vim.mode == 'Normal'",
