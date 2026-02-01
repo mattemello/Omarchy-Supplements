@@ -30,8 +30,6 @@ else
     hyprctl keyword decoration:drop_shadow 0
     # hyprctl keyword decoration:blur:enabled 0
     hyprctl keyword decoration:rounding 0
-    hyprctl keyword general:gaps_in 2
-    hyprctl keyword general:gaps_out 2
     hyprctl keyword general:border_size 0
     hyprctl keyword general:col.active_border "rgba(000000ff)"
     hyprctl keyword general:col.inactive_border "rgba(000000ff)"
