@@ -22,7 +22,10 @@
     },
     {
         "key": "l",
-        "command": "explorer.openAndPassFocus",
+        "command": "runCommands",
+        "args": {
+            "commands": ["explorer.openAndPassFocus", ]
+        },
         "when": "explorerViewletVisible && !inputFocus && explorerResourceIsFile"
     },
     {
