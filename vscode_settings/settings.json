@@ -1,5 +1,10 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "redhat.telemetry.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+     "workbench.colorTheme": "Gruvbox Dark Hard",
     "update.mode": "none",
 
     "vim.normalModeKeyBindings": [
@@ -14,7 +19,15 @@
         {
             "before": ["<leader>", "s", "f"],
             "commands": ["workbench.action.quickOpen"]
-        }
+        },
+        {
+            "before": ["<leader>", "p", "i"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+            "before": ["<leader>", "p", "c"],
+            "commands": ["workbench.action.toggleZenMode"]
+        },
     ],
 
     "vim.leader": " ",           // optional: set leader key
@@ -24,6 +37,97 @@
     "workbench.layoutControl.enabled": false,
     "chat.commandCenter.enabled": false,
     "workbench.editor.showTabs": "none",
-    "editor.minimap.enabled": false
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "git.autofetch": true,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Issues",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "git.confirmSync": false,
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "prova"
+    ],
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "window.titleBarStyle": "custom",
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview",
+        "*.jar": "default",
+        "*.html": "default"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "glassit.alpha": 230,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.enableNeovim": true,
+    "vim.highlightedyank.enable": true,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ],
+    "mssql.connections": [
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "(localdb)\\mssqllocaldb",
+            "database": "",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "profileName": "(localdb)\\mssqllocaldb",
+            "groupId": "ROOT",
+            "id": "254E8A09-9AC6-44F3-A66F-B3EC1BD2D11E",
+            "user": "",
+            "password": ""
+        }
+    ],
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "chat.agent.codeBlockProgress": false,
+    "chat.agent.enabled": false,
+    "chat.agent.thinking.collapsedTools": "off",
+    "chat.agent.thinking.generateTitles": false,
+    "chat.checkpoints.enabled": false,
+    "chat.detectParticipant.enabled": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "chat.editing.confirmEditRequestRetry": false,
+    "editor.fontFamily": "Hasklug Nerd Font, Hasklug Nerd Font Mono, Hasklug Nerd Font Propo",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "zenMode.showTabs": "none",
+    "zenMode.hideStatusBar": false,
+    "zenMode.fullScreen": false,
 }
-
